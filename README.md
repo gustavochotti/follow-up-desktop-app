@@ -95,6 +95,8 @@ pip install -r requirements.txt
 python src/main.py
 ```
 
+---
+
 ## 📊 Potencial para Aplicações Analíticas
 Embora seja uma aplicação transacional (OLTP), os dados coletados por este sistema possuem um grande potencial analítico (OLAP). A funcionalidade de exportação é o primeiro passo para habilitar análises mais profundas.
 
@@ -104,6 +106,8 @@ Embora seja uma aplicação transacional (OLTP), os dados coletados por este sis
   - Qual o tempo médio para conclusão de uma atividade?
   - Existem padrões ou sazonalidades nos registros?
 - **Machine Learning:** Em uma escala maior, o histórico de dados poderia ser usado para treinar modelos preditivos, como prever a probabilidade de atraso em determinadas tarefas ou identificar anomalias nos registros.
+
+---
 
 ## 👨‍💻 Autor
 **Gustavo Chotti**
