@@ -60,7 +60,7 @@ Este projeto foi além da simples implementação de funcionalidades, incorporan
 
 | Tela Principal | Tela de Cadastro/Edição |
 | :---: | :---: |
-| ![Tela de Cadastro e Acompanhmento]([images/interface_cadastro_acompanhamento.png]) | ![Tela de Relatórios]([images/interface_relatórios.png]) |
+| ![Tela de Cadastro e Acompanhmento](images/interface_cadastro_acompanhamento.png) | ![Tela de Relatórios](images/interface_relatórios.png) |
 
 ---
 
