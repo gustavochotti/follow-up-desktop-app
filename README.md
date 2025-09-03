@@ -10,7 +10,6 @@ Sistema de desktop para gerenciamento e acompanhamento de atividades (follow-ups
 A aplicação foi projetada para oferecer uma solução local e eficiente para controle de registros, implementando um sistema de **CRUD** completo com persistência de dados em um banco de dados relacional **SQLite**. A interface gráfica, construída com **PySide6**, foi pensada para ser intuitiva, facilitando o uso por usuários não técnicos.
 
 ![GIF da Aplicação](httpsa://github.com/user-attachments/assets/b8352b2f-7633-40a2-97d8-21d3f666b6c0)
-*(Substitua este link por um GIF ou screenshot da sua aplicação)*
 
 ---
 
