@@ -74,7 +74,8 @@ Existem três formas de utilizar a aplicação: através do instalador, através
 2.  Baixe o instalador `setup-follow-up-app.exe` ou o `Fisk FollowUp.zip` para fazer o dowload diretamente da pasta com o executável.
 3.  Como utilizar:
       - Caso escolha baixar o `setup-follow-up-app.exe`, execute o instalador e siga as instruções na tela.
-      - Caso escolha baixar a pasta raiz com o executável, basta extrair o conteúdo e executar o `Fisk FollowUp.exe` diretamente na pasta raiz.
+      - Caso escolha baixar o `Fisk FollowUp.zip`, basta extrair o conteúdo e executar diretamente o `Fisk FollowUp.exe` que está dentro da pasta raiz.
+- Recomendação: Utilizar o `setup-follow-up-app.exe`. É a forma mais simples e rápida, uma vez que é tudo feito automaticamente pelo instalador.
 
 ### Para Desenvolvedores
 
