@@ -111,7 +111,8 @@ Embora seja uma aplicação transacional (OLTP), os dados coletados por este sis
 
 ## 👨‍💻 Autor
 **Gustavo Chotti**
-LinkedIn | GitHub
+LinkedIn 
+GitHub
 
 ---
 
