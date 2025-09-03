@@ -1,0 +1,6 @@
+# requirements.txt
+ttkbootstrap
+pandas
+matplotlib
+python-dateutil
+Pillow
