@@ -56,6 +56,14 @@ Este projeto foi além da simples implementação de funcionalidades, incorporan
 
 ---
 
+## 🖼️ Screenshots da Aplicação
+
+| Tela Principal | Tela de Cadastro/Edição |
+| :---: | :---: |
+| ![Tela Principal da Aplicação]([link_para_sua_imagem_da_tela_principal.png]) | ![Tela de Cadastro de um novo registro]([link_para_sua_imagem_da_tela_de_cadastro.png]) |
+
+---
+
 ## ⚙️ Instalação e Execução
 
 Existem duas formas de utilizar a aplicação: através do instalador ou executando o código-fonte diretamente.
