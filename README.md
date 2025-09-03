@@ -60,7 +60,7 @@ Este projeto foi além da simples implementação de funcionalidades, incorporan
 
 | Tela Principal | Tela de Cadastro/Edição |
 | :---: | :---: |
-| ![Tela Principal da Aplicação]([link_para_sua_imagem_da_tela_principal.png]) | ![Tela de Cadastro de um novo registro]([link_para_sua_imagem_da_tela_de_cadastro.png]) |
+| ![Tela de Cadastro e Acompanhmento]([link_para_sua_imagem_da_tela_principal.png]) | ![Tela de Relatórios]([link_para_sua_imagem_da_tela_de_cadastro.png]) |
 
 ---
 
