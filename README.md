@@ -113,6 +113,8 @@ Embora seja uma aplicação transacional (OLTP), os dados coletados por este sis
 **Gustavo Chotti**
 LinkedIn | GitHub
 
+---
+
 ##📄 Licença
 Este projeto está sob a licença MIT. Veja o arquivo LICENSE para mais detalhes.
 
