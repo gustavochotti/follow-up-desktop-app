@@ -66,13 +66,15 @@ Este projeto foi além da simples implementação de funcionalidades, incorporan
 
 ## ⚙️ Instalação e Execução
 
-Existem duas formas de utilizar a aplicação: através do instalador ou executando o código-fonte diretamente.
+Existem três formas de utilizar a aplicação: através do instalador, através do download direto da pasta raiz ou executando o código-fonte diretamente.
 
 ### Para Usuários Finais
 
 1.  Acesse a seção de [**Releases**](https://github.com/gustavochotti/follow-up-desktop-app/releases) deste repositório.
-2.  Baixe o arquivo `setup-follow-up-app.exe`.
-3.  Execute o instalador e siga as instruções na tela.
+2.  Baixe o instalador `setup-follow-up-app.exe` ou o `Fisk FollowUp.zip` para fazer o dowload diretamente da pasta com o executável.
+3.  Como utilizar:
+      - Caso escolha baixar o `setup-follow-up-app.exe`, execute o instalador e siga as instruções na tela.
+      - Caso escolha baixar a pasta raiz com o executável, basta extrair o conteúdo e executar o `Fisk FollowUp.exe` diretamente na pasta raiz.
 
 ### Para Desenvolvedores
 
@@ -89,11 +91,11 @@ git clone [https://github.com/gustavochotti/follow-up-desktop-app.git](https://g
 cd follow-up-desktop-app
 
 # 3. Crie e ative um ambiente virtual (recomendado)
-python -m venv venv
+python -m venv .venv
 # No Windows:
-venv\Scripts\activate
+.\.venv\Scripts\activate
 # No Linux/macOS:
-source venv/bin/activate
+source .venv/bin/activate
 
 # 4. Instale as dependências
 pip install -r requirements.txt
