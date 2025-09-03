@@ -70,12 +70,12 @@ Existem três formas de utilizar a aplicação: através do instalador, através
 
 ### Para Usuários Finais
 
-1.  Acesse a seção de [**Releases**](https://github.com/gustavochotti/follow-up-desktop-app/releases) deste repositório.
+1.  Acesse a pasta do drive [**Releases**]([https://drive.google.com/drive/folders/1r2k4mYVWIGz0aybD9Z9T5ToEFVC813Le?usp=sharing]).
 2.  Baixe o instalador `setup-follow-up-app.exe` ou o `Fisk FollowUp.zip` para fazer o dowload diretamente da pasta com o executável.
 3.  Como utilizar:
       - Caso escolha baixar o `setup-follow-up-app.exe`, execute o instalador e siga as instruções na tela.
       - Caso escolha baixar o `Fisk FollowUp.zip`, basta extrair o conteúdo e executar diretamente o `Fisk FollowUp.exe` que está dentro da pasta raiz.
-- Recomendação: Utilizar o `setup-follow-up-app.exe`. É a forma mais simples e rápida, uma vez que é tudo feito automaticamente pelo instalador.
+- **Recomendação:** Utilizar o `setup-follow-up-app.exe`. É a forma mais simples e rápida, uma vez que é tudo feito automaticamente pelo instalador.
 
 ### Para Desenvolvedores
 
@@ -102,13 +102,12 @@ source .venv/bin/activate
 pip install -r requirements.txt
 
 # 5. Execute a aplicação
-python src/main.py
+python main.py
 ```
 
 ---
 
 ## 📊 Potencial para Aplicações Analíticas
-Embora seja uma aplicação transacional (OLTP), os dados coletados por este sistema possuem um grande potencial analítico (OLAP). A funcionalidade de exportação é o primeiro passo para habilitar análises mais profundas.
 
 - **Pipeline de ETL:** A extração do banco de dados pode ser o ponto de partida para um pipeline de ETL, onde os dados seriam transformados e carregados em um data warehouse ou data lake para análises consolidadas.
 - **Análise de Dados:** Os dados podem ser utilizados para gerar dashboards em ferramentas como Power BI ou Tableau, ou analisados com bibliotecas Python (Pandas, Matplotlib, Seaborn) para responder a perguntas de negócio, como:
