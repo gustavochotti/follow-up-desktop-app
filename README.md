@@ -70,7 +70,7 @@ Existem três formas de utilizar a aplicação: através do instalador, através
 
 ### Para Usuários Finais
 
-1.  Acesse a pasta do drive [**Releases**](https://drive.google.com/drive/folders/1r2k4mYVWIGz0aybD9Z9T5ToEFVC813Le?usp=sharing).
+1.  Acesse a pasta no Google Drive [**Releases**](https://drive.google.com/drive/folders/1r2k4mYVWIGz0aybD9Z9T5ToEFVC813Le?usp=sharing).
 2.  Baixe o instalador `setup-follow-up-app.exe` ou o `Fisk FollowUp.zip` para fazer o dowload diretamente da pasta com o executável.
 3.  Como utilizar:
       - Caso escolha baixar o `setup-follow-up-app.exe`, execute o instalador e siga as instruções na tela.
