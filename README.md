@@ -7,7 +7,7 @@
 
 Sistema de desktop para gerenciamento e acompanhamento de atividades (follow-ups), desenvolvido com foco em robustez, usabilidade e manutenibilidade.
 
-A aplicação foi projetada para oferecer uma solução local e eficiente para controle de registros, implementando um sistema de **CRUD** completo com persistência de dados em um banco de dados relacional **SQLite**. A interface gráfica construída, foi pensada para ser intuitiva, facilitando o uso por usuários não técnicos.
+A aplicação foi projetada para oferecer uma solução local e eficiente para controle de registros, implementando um sistema de **CRUD** completo com persistência de dados em um banco de dados relacional **SQLite**. A interface gráfica construída, foi pensada para ser intuitiva, facilitando o uso por usuários não técnicos. O objetivo deste projeto
 
 
 ![Gif da Aplicação](demo.gif)
@@ -25,6 +25,20 @@ A aplicação foi projetada para oferecer uma solução local e eficiente para c
 * **Persistência de Dados Confiável:** Utiliza um banco de dados relacional (SQLite) para garantir a integridade e a consistência dos dados, aderindo a princípios transacionais (**ACID** - Atomicidade, Consistência, Isolamento e Durabilidade).
 * **Exportação de Dados:** Funcionalidade para exportar a base de dados completa, permitindo a extração de dados para backups ou análises externas (um processo análogo a uma operação de **ETL** - Extract, Transform, Load).
 * **Instalador Simplificado:** Um instalador executável (`.exe`), criado com Inno Setup, que automatiza o processo de instalação e configuração do ambiente para o usuário final.
+
+---
+
+## 📖 Contexto do Projeto  
+
+Centros de ensino frequentemente dependem de planilhas para gerenciar contatos e follow-ups, o que leva a desafios como dados descentralizados, risco de erros manuais e grande dificuldade para extrair informações estratégicas de forma rápida.
+
+Esta aplicação desktop surge como uma solução completa para eliminar esses gargalos. Através de uma interface intuitiva e de fácil instalação, o sistema oferece:
+
+- Centralização de todos os cadastros e interações em um banco de dados relacional, garantindo a integridade dos dados.
+
+- Eficiência operacional, permitindo que a equipe realize buscas, atualizações e exportações de dados em alguns segundos e com poucos cliques, não em horas e um ambiente confuso.
+
+- Conversão de dados brutos em insights através de um módulo de visualização com filtros personalizados e um dashboard com gráficos focados nos principais indicadores de desempenho (KPIs), facilitando a tomada de decisões e extração de insights. 
 
 ---
 
