@@ -32,7 +32,7 @@ A aplicação foi projetada para oferecer uma solução local e eficiente para c
 
 Centros de ensino frequentemente dependem de planilhas para gerenciar contatos e follow-ups, o que leva a desafios como dados descentralizados, risco de erros manuais e grande dificuldade para extrair informações estratégicas de forma rápida.
 
-Esta aplicação desktop surge como uma solução completa para eliminar esses gargalos. Através de uma interface intuitiva e de fácil instalação, o sistema oferece:
+Esta aplicação desktop surgiu como uma solução real completa para eliminar esses gargalos em uma unidade Fisk Centro de Ensino. Através de uma interface intuitiva e de fácil instalação. O sistema oferece:
 
 - Centralização de todos os cadastros e interações em um banco de dados relacional, garantindo a integridade, segurança e padronização dos dados.
 
