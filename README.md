@@ -135,7 +135,7 @@ Antes de utilizar a aplicação, por favor, leia os pontos abaixo para entender 
         4.  Mova ou copie o seu backup (`contacts.db`) para dentro dessa pasta, **substituindo** o arquivo antigo quando solicitado.
         5.  Abra a aplicação novamente. Seus dados restaurados estarão lá.
 
-* **Aplicação Monousuário (Standalone):** O sistema foi projetado para ser utilizado **sem a necessidaded de login**. Ele não possui funcionalidades de rede ou sincronização. Se você instalar a aplicação em outra máquina, ela terá um banco de dados separado e vazio. No entanto, é possível **transferir seus dados para outro computador manualmente**. Para isso, siga **exatamente o mesmo procedimento descrito acima em "Para restaurar um backup"**: copie o arquivo `contacts.db` do computador antigo e use-o para substituir o arquivo original na pasta raiz do projeto da nova instalação.
+* **Aplicação Monousuário (Standalone):** O sistema foi projetado para ser utilizado **sem a necessidade de um login**. Ele não possui funcionalidades de rede ou sincronização. Se você instalar a aplicação em outra máquina, ela terá um banco de dados separado e vazio. No entanto, é possível **transferir seus dados para outro computador manualmente**. Para isso, siga **exatamente o mesmo procedimento descrito acima em "Para restaurar um backup"**: copie o arquivo `contacts.db` do computador antigo e use-o para substituir o arquivo original na pasta raiz do projeto da nova instalação.
 
 * **Compatibilidade do Instalador:** O instalador (`.exe`) fornecido foi criado e testado exclusivamente para o ambiente **Windows (versões 10 e 11)**. Embora o código-fonte seja multiplataforma, a versão pronta para uso é destinada a usuários do Windows.
 
