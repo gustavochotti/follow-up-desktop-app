@@ -154,6 +154,7 @@ Antes de utilizar a aplicação, por favor, leia os pontos abaixo para entender 
 
 ## 👨‍💻 Autor
 **Gustavo Chotti** 
+
 [**Github**](https://github.com/gustavochott) | [**LinkedIn**](https://www.linkedin.com/in/gustavochotti)
 
 ---
