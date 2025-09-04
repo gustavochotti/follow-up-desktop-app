@@ -36,7 +36,7 @@ Esta aplicação desktop surgiu como uma solução real completa para eliminar e
 
 - Centralização de todos os cadastros e interações em um banco de dados relacional, garantindo a integridade, segurança e padronização dos dados.
 
-- Eficiência operacional, permitindo que a equipe realize buscas, atualizações e exportações de dados em alguns segundos e com poucos cliques, não em horas e um ambiente confuso.
+- Eficiência operacional, permitindo que a equipe realize buscas, atualizações e exportações de dados em alguns segundos e com poucos cliques, ao invés de horas em um ambiente confuso ou com ferramentas descentralizadas e pouco eficiêntes para follow-up, como planilhas e follow-up físico.
 
 - Conversão de dados brutos em insights através de um módulo de visualização com filtros personalizados e um dashboard com gráficos focados nos principais indicadores de desempenho (KPIs), facilitando a tomada de decisões e extração de insights. 
 
