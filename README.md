@@ -120,6 +120,27 @@ python main.py
 
 ---
 
+## ⚠️ Informações Importantes
+
+Antes de utilizar a aplicação, por favor, leia os pontos abaixo para entender como ela funciona e como garantir a segurança dos seus dados.
+
+* **Armazenamento de Dados Local:** Todo o banco de dados da aplicação é armazenado em um único arquivo chamado `contacts.db`. Este arquivo é criado no mesmo diretório onde o programa foi instalado. Isso significa que **todos os seus dados residem exclusivamente no seu computador**, garantindo total privacidade.
+
+* **Backups e Restauração de Dados:** Como os dados são locais, **a responsabilidade de realizar backups é do usuário**. Para evitar perdas acidentais de informação, recomendamos fortemente as seguintes práticas:
+    * **Para fazer um backup:** Utilize a funcionalidade de "Exportar Banco de Dados" dentro da aplicação ou copie manualmente o arquivo `contacts.db` para um local seguro (um HD externo, um serviço de nuvem, etc.).
+    * **Para restaurar um backup:**
+        1.  **Feche a aplicação** completamente.
+        2.  Pegue o seu arquivo de backup e renomeie-o para `contacts.db`.
+        3.  Encontre a pasta onde o programa foi instalado. **Dica:** se você não sabe o local, clique com o botão direito no atalho do programa na sua Área de Trabalho e selecione a opção "Abrir local do arquivo".
+        4.  Mova ou copie o seu backup (`contacts.db`) para dentro dessa pasta, **substituindo** o arquivo antigo quando solicitado.
+        5.  Abra a aplicação novamente. Seus dados restaurados estarão lá.
+
+* **Aplicação Monousuário (Standalone):** O sistema foi projetado para ser utilizado **sem a necessidaded de login**. Ele não possui funcionalidades de rede ou sincronização. Se você instalar a aplicação em outra máquina, ela terá um banco de dados separado e vazio. No entanto, é possível **transferir seus dados para outro computador manualmente**. Para isso, siga **exatamente o mesmo procedimento descrito acima em "Para restaurar um backup"**: copie o arquivo `contacts.db` do computador antigo e use-o para substituir o arquivo original na pasta raiz do projeto da nova instalação.
+
+* **Compatibilidade do Instalador:** O instalador (`.exe`) fornecido foi criado e testado exclusivamente para o ambiente **Windows (versões 10 e 11)**. Embora o código-fonte seja multiplataforma, a versão pronta para uso é destinada a usuários do Windows.
+
+---
+
 ## 📊 Potencial para Aplicações Analíticas
 
 - **Pipeline de ETL:** A extração do banco de dados pode ser o ponto de partida para um pipeline de ETL, onde os dados seriam transformados e carregados em um data warehouse ou data lake para análises consolidadas.
@@ -133,6 +154,7 @@ python main.py
 
 ## 👨‍💻 Autor
 **Gustavo Chotti** 
+[**Github**](https://github.com/gustavochott) | [**LinkedIn**](https://www.linkedin.com/in/gustavochotti)
 
 ---
 
