@@ -34,7 +34,7 @@ Centros de ensino frequentemente dependem de planilhas para gerenciar contatos e
 
 Esta aplicação desktop surge como uma solução completa para eliminar esses gargalos. Através de uma interface intuitiva e de fácil instalação, o sistema oferece:
 
-- Centralização de todos os cadastros e interações em um banco de dados relacional, garantindo a integridade dos dados.
+- Centralização de todos os cadastros e interações em um banco de dados relacional, garantindo a integridade e segurança dos dados.
 
 - Eficiência operacional, permitindo que a equipe realize buscas, atualizações e exportações de dados em alguns segundos e com poucos cliques, não em horas e um ambiente confuso.
 
