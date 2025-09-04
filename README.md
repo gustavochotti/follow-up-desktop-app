@@ -30,11 +30,11 @@ A aplicação foi projetada para oferecer uma solução local e eficiente para c
 
 ## 🛠️ Arquitetura e Conceitos Técnicos
 
-Este projeto foi além da simples implementação de funcionalidades, incorporando boas práticas de desenvolvimento para garantir um software de qualidade.
+Este projeto foi além da simples implementação de funcionalidades, incorporando boas práticas de desenvolvimento para garantir um software robusto de qualidade.
 
 * **Banco de Dados Relacional (SQLite):** A escolha pelo SQLite como SGBD se deu pela sua simplicidade, portabilidade e eficiência em aplicações desktop. O banco de dados armazena os dados de forma estruturada, permitindo consultas complexas e garantindo a integridade referencial dos dados.
 
-* **Camada de Persistência de Dados:** Toda a interação com o banco de dados é centralizada em um módulo dedicado (`database.py`), abstraindo a lógica de SQL do restante da aplicação. Essa separação de responsabilidades torna o código mais limpo, seguro contra SQL Injection (com o uso de placeholders) e facilita futuras migrações de banco, se necessário.
+* **Camada de Persistência de Dados:** Toda a interação com o banco de dados é centralizada em um módulo dedicado (`database.py`), abstraindo a lógica de SQL do restante da aplicação. Essa separação de responsabilidades torna o código mais limpo, seguro, e facilita futuras migrações de banco, se necessário.
 
 * **Modularização e Manutenibilidade:** O código é estruturado de forma modular, separando as responsabilidades:
     1.  **Interface do Usuário (UI):** Arquivos `.ui` (criados no Qt Designer) e classes Python que gerenciam a lógica da interface.
