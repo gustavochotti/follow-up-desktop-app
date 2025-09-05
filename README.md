@@ -7,7 +7,7 @@
 
 Sistema de desktop para gerenciamento e acompanhamento de atividades (follow-ups), desenvolvido com foco em robustez, usabilidade e manutenibilidade.
 
-A aplicação foi projetada para oferecer uma solução local e eficiente para controle de registros, implementando um sistema de **CRUD** completo com persistência de dados em um banco de dados relacional **SQLite**. A interface gráfica construída, foi pensada para ser intuitiva, facilitando o uso por usuários não técnicos. O objetivo deste projeto
+A aplicação foi projetada para oferecer uma solução local e eficiente para controle de registros, implementando um sistema de **CRUD (Create, Read, Update, and Delete)** completo com persistência de dados em um banco de dados relacional **SQLite**. A interface gráfica construída, foi pensada para ser intuitiva, facilitando o uso por usuários não técnicos. O objetivo deste projeto
 
 
 ![Gif da Aplicação](demo.gif)
@@ -16,7 +16,7 @@ A aplicação foi projetada para oferecer uma solução local e eficiente para c
 
 ## 🎯 Funcionalidades Principais
 
-* **Interface Gráfica Intuitiva:** UI limpa e objetiva, desenvolvida com PySide6 (Qt for Python), focada na experiência do usuário.
+* **Interface Gráfica Intuitiva:** UI limpa e objetiva, desenvolvida com `ttkbootstrap`, focada na experiência do usuário.
 * **Operações CRUD Completas:** Implementação de todas as operações essenciais de manipulação de dados:
     * **C**reate (Criar): Adição de novos registros de follow-up.
     * **R**ead (Ler): Visualização e busca de registros existentes.
