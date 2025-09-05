@@ -94,6 +94,14 @@ A escolha pelo SQLite como banco de dados embarcado elimina a necessidade de qua
 
 ---
 
+## 🖼️ Screenshots da Aplicação
+
+| Tela Principal | Tela de Cadastro/Edição |
+| :---: | :---: |
+| ![Tela de Cadastro e Acompanhmento](images/interface_cadastro_acompanhamento.png) | ![Tela de Relatórios](images/interface_relatórios.png) |
+
+---
+
 ### 📊 Impacto e Valor de Negócio
 
 A implementação desta ferramenta representa a transição de um modelo de gestão reativo e manual para uma **cultura proativa e orientada a dados (Data-Driven)**.
@@ -130,14 +138,6 @@ Este projeto foi além da simples implementação de funcionalidades, incorporan
 | **Python** | Linguagem principal do projeto |
 | **SQLite3** | Banco de dados relacional embarcado para persistência de dados |
 | **Inno Setup** | Ferramenta para criação do instalador para Windows |
-
----
-
-## 🖼️ Screenshots da Aplicação
-
-| Tela Principal | Tela de Cadastro/Edição |
-| :---: | :---: |
-| ![Tela de Cadastro e Acompanhmento](images/interface_cadastro_acompanhamento.png) | ![Tela de Relatórios](images/interface_relatórios.png) |
 
 ---
 
