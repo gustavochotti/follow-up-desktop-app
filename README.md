@@ -1,30 +1,15 @@
 # Follow-Up Desktop App
 
 ![Python](https://img.shields.io/badge/Python-3.10%2B-blue?style=for-the-badge&logo=python)
-![PySide6](https://img.shields.io/badge/PySide6-Qt%20for%20Python-orange?style=for-the-badge&logo=qt)
 ![SQLite](https://img.shields.io/badge/SQLite-3-darkblue?style=for-the-badge&logo=sqlite)
 ![Status](https://img.shields.io/badge/Status-Concluído-green?style=for-the-badge)
 
 Sistema de desktop para gerenciamento e acompanhamento de atividades (follow-ups), desenvolvido com foco em robustez, usabilidade e manutenibilidade.
 
-A aplicação foi projetada para oferecer uma solução local e eficiente para controle de registros, implementando um sistema de **CRUD (Create, Read, Update, and Delete)** completo com persistência de dados em um banco de dados relacional **SQLite**. A interface gráfica construída, foi pensada para ser intuitiva, facilitando o uso por usuários não técnicos. O objetivo deste projeto
+A aplicação foi projetada para oferecer uma solução local e eficiente para controle de registros, implementando um sistema de **CRUD (Create, Read, Update, and Delete)** completo com persistência de dados em um banco de dados relacional **SQLite**. A interface gráfica construída, foi pensada para ser intuitiva, facilitando o uso por usuários não técnicos.
 
 
 ![Gif da Aplicação](demo.gif)
-
----
-
-## 🎯 Funcionalidades Principais
-
-* **Interface Gráfica Intuitiva:** UI limpa e objetiva, desenvolvida com `ttkbootstrap`, focada na experiência do usuário.
-* **Operações CRUD Completas:** Implementação de todas as operações essenciais de manipulação de dados:
-    * **C**reate (Criar): Adição de novos registros de follow-up.
-    * **R**ead (Ler): Visualização e busca de registros existentes.
-    * **U**pdate (Atualizar): Edição de informações dos registros.
-    * **D**elete (Deletar): Exclusão de registros.
-* **Persistência de Dados Confiável:** Utiliza um banco de dados relacional (SQLite) para garantir a integridade e a consistência dos dados, aderindo a princípios transacionais (**ACID** - Atomicidade, Consistência, Isolamento e Durabilidade).
-* **Exportação de Dados:** Funcionalidade para exportar a base de dados completa, permitindo a extração de dados para backups ou análises externas (um processo análogo a uma operação de **ETL** - Extract, Transform, Load).
-* **Instalador Simplificado:** Um instalador executável (`.exe`), criado com Inno Setup, que automatiza o processo de instalação e configuração do ambiente para o usuário final.
 
 ---
 
@@ -42,7 +27,7 @@ Esta aplicação desktop surgiu como uma solução real completa para eliminar e
 
 ---
 
-### ✨ Funcionalidades
+### ✨ O que o sistema oferece?
 
 * **Gestão de Contatos (CRUD):**
     * Cadastro, edição e exclusão de contatos com formulário detalhado.
@@ -66,7 +51,7 @@ Esta aplicação desktop surgiu como uma solução real completa para eliminar e
     * **Backup e Portabilidade:** Funcionalidade de backup do banco de dados SQLite com um clique, gerando um arquivo com timestamp.
 
 * **Arquitetura e Distribuição:**
-    * **Interface Responsiva:** UI construída com `ttkbootstrap`, garantindo uma experiência de usuário moderna e funcional.
+    * **Interface Responsiva:** UI construída com `ttkbootstrap`, garantindo uma experiência de usuário moderna, intuitiva e funcional.
     * **Banco de Dados Embarcado:** Utilização de SQLite 3 para uma solução `zero-config`, onde o banco é um arquivo local.
     * **Instalador para Windows:** O projeto é distribuído como um pacote completo com um instalador (`setup.exe`) criado com Inno Setup.
     * **Integração com SO:** Definição de `AppUserModelID` via `ctypes` para garantir a correta identidade visual (ícone) na barra de tarefas do Windows.
