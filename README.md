@@ -107,7 +107,7 @@ Este projeto foi além da simples implementação de funcionalidades, incorporan
 
 * **Camada de Persistência de Dados:** Toda a interação com o banco de dados é centralizada em um módulo dedicado (`database.py`), abstraindo a lógica de SQL do restante da aplicação. Essa separação de responsabilidades torna o código mais limpo, seguro, e facilita futuras migrações de banco, se necessário.
 
-* **Modularização e Manutenibilidade:** O código é estruturado de forma modular, separando as responsabilidades:
+* **Modularização e Manutenção:** O código é estruturado de forma modular, separando as responsabilidades:
     1.  **Interface do Usuário (UI):** Arquivos e classes Python que gerenciam a lógica da interface.
     2.  **Lógica de Negócio:** Funções que orquestram as operações e regras da aplicação.
     3.  **Acesso aos Dados:** A camada de persistência que lida exclusivamente com o banco de dados.
