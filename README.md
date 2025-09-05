@@ -42,6 +42,70 @@ Esta aplicação desktop surgiu como uma solução real completa para eliminar e
 
 ---
 
+### ✨ Funcionalidades
+
+* **Gestão de Contatos (CRUD):**
+    * Cadastro, edição e exclusão de contatos com formulário detalhado.
+    * Ordenação de dados instantânea ao clicar nos cabeçalhos das colunas (ex: por Nome, Data da Visita, Status).
+
+* **Sistema de Filtragem Avançada:**
+    * Busca por nome parcial e por qualquer sequência de dígitos do telefone.
+    * Filtros combináveis por Atendente, Curso de Interesse, Status e Período de Visita.
+
+* **Dashboard de Business Intelligence (BI):**
+    * Módulo de relatórios com visualizações gráficas para análise de performance.
+    * Gráficos de análise de funil (Visitas vs. Matrículas).
+    * Distribuição de leads por status.
+    * Análise de eficácia dos canais de aquisição ("Como conheceu").
+    * Identificação dos cursos com maior demanda.
+
+* **Utilitários de Dados:**
+    * **Entrada de Dados Assistida:** Autoformatação em tempo real para datas (`ddmmyyyy` → `dd/mm/yyyy`), telefones e valores monetários.
+    * **Exportação para CSV:** Geração de relatórios `.csv` que respeitam a filtragem e ordenação aplicadas na tela.
+    * **Detecção de Duplicados:** Ferramenta para identificar contatos com telefone ou e-mail duplicados, visando a integridade da base.
+    * **Backup e Portabilidade:** Funcionalidade de backup do banco de dados SQLite com um clique, gerando um arquivo com timestamp.
+
+* **Arquitetura e Distribuição:**
+    * **Interface Responsiva:** UI construída com `ttkbootstrap`, garantindo uma experiência de usuário moderna e funcional.
+    * **Banco de Dados Embarcado:** Utilização de SQLite 3 para uma solução `zero-config`, onde o banco é um arquivo local.
+    * **Instalador para Windows:** O projeto é distribuído como um pacote completo com um instalador (`setup.exe`) criado com Inno Setup.
+    * **Integração com SO:** Definição de `AppUserModelID` via `ctypes` para garantir a correta identidade visual (ícone) na barra de tarefas do Windows.
+
+---
+
+### 🔑 Funcionalidades Principais
+
+**Pipeline de Gerenciamento de Leads (CRM):**
+A aplicação implementa um ciclo de vida completo de gerenciamento de contatos, desde a prospecção até a conversão. As operações de CRUD são centralizadas em uma interface intuitiva, permitindo que a equipe comercial mantenha um registro detalhado e atualizado de cada lead.
+
+**Módulo de Business Intelligence (BI) e Analytics:**
+O diferencial do projeto é seu dashboard analítico, que transforma dados operacionais em insights estratégicos. Através de um pipeline de ETL in-memory (SQLite → Pandas → Matplotlib), a ferramenta visualiza KPIs essenciais:
+* **Taxa de Conversão:** Acompanhamento da eficácia do funil de vendas (Visitas vs. Matrículas).
+* **Análise de Canais:** Identificação dos canais de aquisição mais eficientes (ex: Indicação, Mídias Sociais), permitindo a otimização de investimentos em marketing.
+* **Saúde do Pipeline:** Visão clara da distribuição de leads por status, ajudando a prever resultados e identificar gargalos no processo de negociação.
+
+**Utilitários de Qualidade e Integridade de Dados:**
+Para garantir a confiabilidade das análises, a aplicação possui ferramentas focadas na qualidade dos dados:
+* **Normalização na Entrada:** A autoformatação de telefones, datas e valores monetários não só agiliza o cadastro, mas também padroniza os dados na origem, mitigando erros de digitação e garantindo a consistência para futuras consultas.
+* **Detecção de Duplicados e Backup:** Ferramentas essenciais que permitem a limpeza da base de dados e a recuperação de desastres, assegurando que o ativo mais importante — os dados dos contatos — esteja sempre seguro e íntegro.
+
+**Deployment Zero-Config (SQLite + Inno Setup):**
+A escolha pelo SQLite como banco de dados embarcado elimina a necessidade de qualquer configuração de servidor. Combinado com um instalador profissional criado com Inno Setup, a distribuição e o setup da aplicação em um novo computador são processos triviais, podendo ser realizados em segundos por qualquer usuário.
+
+---
+
+### 📊 Impacto e Valor de Negócio
+
+A implementação desta ferramenta representa a transição de um modelo de gestão reativo e manual para uma **cultura proativa e orientada a dados (Data-Driven)**.
+
+* **Eficiência Operacional:** A centralização dos dados e os filtros dinâmicos reduzem drasticamente o tempo gasto para encontrar um contato ou segmentar uma lista para uma campanha de follow-up. A autoformatação minimiza erros de digitação e retrabalho.
+
+* **Tomada de Decisão Estratégica:** O dashboard de BI fornece aos gestores uma visão clara e objetiva da performance comercial. Perguntas como "Qual canal de marketing está trazendo mais matrículas?" ou "Qual curso está com maior procura este mês?" são respondidas com dados, não com suposições.
+
+* **Aumento de Conversão:** Ao garantir um processo de follow-up mais organizado e permitir a identificação de leads "esquecidos", a ferramenta atua diretamente na mitigação da perda de oportunidades, com impacto direto no **aumento da taxa de matrículas**.
+
+---
+
 ## 🛠️ Arquitetura e Conceitos Técnicos
 
 Este projeto foi além da simples implementação de funcionalidades, incorporando boas práticas de desenvolvimento para garantir um software robusto de qualidade.
